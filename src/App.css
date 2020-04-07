@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.done {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: #999;
+}
+
+.add {
+  margin-top: 20px;
+  background-color: #007bff;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-items: baseline;
+}
+
+.text {
+  color: #999;
+}
+.titre {
+  text-align: right;
+  margin-right: 150px;
+}
+.button-right {
+  margin-left: 1000px;
+}
+.button-right:hover {
+  background-color: #4696e5;
+  color: white;
+}
+.hoover:hover {
+  border: #4696e5 solid;
+}
+input {
+  border-radius: 10px;
+  width: 80%;
+  height: 35px;
+}
+.new {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+.new-add {
+  align-items: center;
+}
+
+button {
+  border-radius: 5px;
+  width: 75px;
+  height: 25px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.close:hover {
+  background-color: #4696e5;
+  color: white;
+}
